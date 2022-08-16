@@ -11,15 +11,15 @@
 }
 @font-face{
     font-family: secret;
-    src: url(../Fonts/GroovedPersonalUseRegular-9Y350.ttf);
+    src: url(GroovedPersonalUseRegular-9Y350.ttf);
 }
 @font-face{
     font-family: text1;
-    src: url(../Fonts/AthenaItalic-d9qyX.ttf);
+    src: url(AthenaItalic-d9qyX.ttf);
 }
 @font-face{
     font-family: milan;
-    src: url(../Fonts/MilanPersonalUse-qZ47r.otf);
+    src: url(MilanPersonalUse-qZ47r.otf);
 }
 @keyframes typing {
     from{
@@ -79,7 +79,7 @@ h1{
 
 
 .main{
-    background-image: url(../Background/wp630435-robot-wallpaper.jpg);
+    background-image: url(wp630435-robot-wallpaper.jpg);
     width: 100%;
     height: 900px;
     background-position: center;
@@ -90,12 +90,13 @@ h1{
 }
 .header-ul a{
     margin-left: 5px;
-    color: rgb(129, 168, 180);
-    text-shadow: rgba(205, 205, 216, 0.486) 20px 25px 3px;
+    color: rgb(255, 255, 255);
 }
 
 .header a:hover{
     color: red;
+    text-shadow: rgba(205, 205, 216, 0.486) 20px 25px 3px;
+
 }
 .header li{
     display: inline-block;
@@ -246,7 +247,7 @@ h1{
     box-shadow: rgb(137, 182, 14) 0px 0px 30px;
 }
 .container_footer{
-    background-image: url(../Background/finger=bqckground.jpg);
+    background-image: url(finger=bqckground.jpg);
     background-color: #0000001c;
     width: 100%;
     height: 1200px;;
