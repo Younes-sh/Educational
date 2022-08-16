@@ -1,35 +1,9 @@
-const rand = [
-    'younes sheiklar',
-    'tirdad jam',
-    'mohsen sheikhlar',
-    'hosein sheikhlar',
-    'maryam sheikhlar',
-    'tina basiri'
-]
-
-const para = document.querySelector('#paragraph');
-const randBtn = document.querySelector('#randbtn');
-
-randBtn.addEventListener('click',function(){
-    let randNum = Math.floor(Math.random() * 6);
-    para.innerHTML = rand[randNum]
-})
-
-
-let i = 0;
-
-while (i < 20){
-    i++
-    
-    if (i % 2 == 0 && i !== 10){
-        console.log(i)
-    }
-  
-}
-
-
-
-
-for(let i = 0 ; i < 20 ; i++ , i % 2 == 0 ){
-    console.log(i)
+// menu burger
+var sideBar = document.querySelector('.sideBar');
+var btnBurgerMenu = document.querySelector('.btnSide');
+btnBurgerMenu.addEventListener('click',btnBurgerHandler);
+function btnBurgerHandler () {
+    btnBurgerMenu.classList.toggle('open')
+    sideBar.classList.toggle('hidden')
+    sideBar.classList.toggle('width')
 }

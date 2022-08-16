@@ -14,7 +14,7 @@ body{
     position: relative;
 }
 .register{
-background-image: url(../Background/bgregister.jpg);
+background-image: url(bgregister.jpg);
 width: 100%;
 height: 1000px;
 background-position: center;
